@@ -7,3 +7,4 @@ elsif array.size == 3
 
 array.split(", ")
 end
+end
