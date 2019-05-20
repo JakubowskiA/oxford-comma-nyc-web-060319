@@ -7,5 +7,7 @@ elsif array.size == 3
   array.join(", ")
 else
   last = "and #{array[array.size-1]}"
+  array.pop
+  output = array.join(", ") + last
 end
 end
